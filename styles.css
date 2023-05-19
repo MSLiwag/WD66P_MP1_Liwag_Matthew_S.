@@ -1,0 +1,95 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    }
+.intro{
+    height:100vh;
+    background-image:url("background.jpg");
+    background-position: center;
+    color:white;
+    
+}
+.about{
+    background-color: #00000071;
+    backdrop-filter:blur(3.5px);
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0 150px;
+    text-shadow: black 1px 1px 5px;
+}
+.desc{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    padding: 2rem;
+    
+}
+.Section{
+    padding: 0 150px;
+    padding-top:2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#f7f7f7;
+}
+.Section-Header{
+    text-align:center;
+    flex:1;
+}
+.skill-container{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    flex:1;
+}
+.skills{
+    padding:2rem;
+    text-align:center;
+    flex:1;
+}
+.project-container{
+
+}
+.projects img{
+    height:225px;
+    width:225px;
+}
+.projects img:hover{
+    transform:scale(1.125);
+}
+.project-content{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:start;
+    padding:0.5rem;
+    text-align:center;
+}
+.projects{
+    margin:2rem 0;
+    display:flex;
+    width:70vw;
+}
+footer{
+    background-color: #f7f7f7;
+    padding: 2rem 150px;
+    display:flex;
+    justify-content:space-between;
+}
+.contact-me{
+    text-align:end;
+}   
+ul li{
+    list-style:none;
+}
+@media (max-width:576px){
+    .skill-container{
+        flex-direction:column;
+    }
+}   
